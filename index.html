@@ -1,0 +1,258 @@
+<!--
+Copyright (c) 2025 SersanX
+All Rights Reserved.
+
+This code is proprietary and confidential.
+No part of this code may be copied, modified, published, distributed, or used
+in any form without explicit written permission from the author.
+
+Unauthorized use is strictly prohibited and may result in legal action.
+-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog Produk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+  <style>
+    .poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+}
+  body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-box {
+  background-color: #001f3f;
+  padding: 10px;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+  width: 100%;
+  margin-top: auto;
+}
+  body {
+      font-family: sans-serif;
+      margin: 0px;
+      padding: 50px;
+      background-color: #f2f2;
+  background-image: url('https://i.postimg.cc/zfSv3D3Y/file-0000000083b461f79794d2ab77f08842.png');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+.affiliate-desc {
+  font-size: 15px;
+  color: lightgrey;
+  margin-top: -20px;
+  margin-bottom: 1px;
+}
+  .info-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  margin-top: 6px;
+}
+.rating-row {
+  display: flex;
+  align-items: center; 
+  gap: 4px;
+}
+.kecil {
+  font-size: 12px;
+  line-height: 0;            
+  vertical-align: middle;    
+  margin-top: 1px;           
+}
+
+    .produk {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+  #search {
+      padding: 10px;
+      margin: 20px;
+      width: 80%;
+    }
+  .link {
+  background-color: #0e8c7f;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.link:hover {
+  background-color: #08564d;
+  transform: scale(1.15);
+}
+    .produk img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 2px;
+    }
+    
+  .judul1.m {
+      font-size: 20px;
+      margin: 10px 0 5px;
+      color: black;
+      font-weight: bold;
+    }
+    .harga.biru {
+      color: blue;
+      font-weight: bold;
+    }
+  .harga.hijau {
+    color: #27AE60;
+    font-weight; bold;
+  }
+  .harga.hitam {
+    color: black;
+    font-weight; bold;
+  }
+    .link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #0e8c7f;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+  .judul {
+    color: white;
+    font-size: 1px;
+  }
+  .logoaff {
+    text-align: center;
+  }
+  .logoaff img{
+    width: 135px;
+    height: 100px;
+    padding: 10px 10px;
+  }
+  .sosmed-container {
+  display: flex;
+  justify-content: center;
+    gap: 10px;
+  align-items: center;
+}
+.logoyt {
+  background-image: url("https://res.cloudinary.com/dmgrfycai/image/upload/youtube_hsbktz");
+  width: 45px;
+  height: 40px;
+  background-size: contain; /* atau cover */
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 0 0 100px 0;
+}
+  .logoig {
+  background-image: url("https://res.cloudinary.com/dmgrfycai/image/upload/social_s9bnsl.png");
+  width: 45px;
+  height: 40px;
+    background-size: contain; /* atau cover */
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 0 0 100px 0;
+}
+.circle {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logott {
+  background-image: url("https://res.cloudinary.com/dmgrfycai/image/upload/tiktok_irtfio.png");
+  width: 45px;
+  height: 45px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  .padds {
+    padding: 0 0 100px 0;
+  }
+  .sosmed-logo0:hover {
+    transform: scale(1.15);
+  }
+
+  </style>
+ </head>
+<body>
+  <h2 class="poetsen-one-regular">Produk affiliate</h2>
+  <p class="affiliate-desc">Normal <i>Affiliate</i></p>
+  <input type="text" id="search" placeholder="Cari produk...">
+  
+  <div class="produk">
+  <h1 class="judul">1Kacamata Anti Radiasi & Photocromic</h1> 
+    <a href="https://s.shopee.co.id/AUhvEa2Eq1"><img src="https://down-id.img.susercontent.com/file/f6af16a0480164237d1512f76b8680eb.webp" border="0"></a> 
+    <div class="info-bar">
+    <div class="rating-row">
+      <span class="bintang">⭐⭐⭐⭐☆ (4.6)</span> 
+      <span class="kecil"><i>8,4RB</i></span>
+     </div>
+    </div>
+    <div class="judul1 m">Kacamata Anti radiasi & Photocromic </div>
+    <div class="harga hijau">Rp.19.999 to Rp.24.890</div>
+    <a class="link" href="https://s.shopee.co.id/AUhvEa2Eq1" target="_blank">Beli Sekarang🛍</a>
+  </div>
+  </div>
+ 
+
+<h1 class="logoaff">
+    <img src="https://res.cloudinary.com/dmgrfycai/image/upload/file_000000007f4061f6a2d7b244887eb584_smgbvg" width="80">
+  </a>
+</h1>
+
+<div class="sosmed-logo">
+  <div class="sosmed-container">
+  <a href="https://youtube.com/@normalaffiliates?si=mjJKLv3cq7MhpbQz" class="logoyt" target="_blank"></a>
+  
+  <a href="https://youtube.com" class="logoig" target="_blank"></a>
+    <div class="padds">
+    <div class="circle">
+    <a href="https://www.tiktok.com/@normal.life193?_t=ZS-8wpyU6Gf4d7&_r=1" class="logott" target="_blank"></a>
+    </div>
+    </div> 
+  </div>
+</div>
+<footer class="footer-box" style="color: grey;">
+  Icons TikTok & YouTube by 
+  <a href="https://www.flaticon.com/authors/md-tanvirul-haque" target="_blank" style="color: grey">md tanvirul haque</a> 
+  Icons Instagram by 
+  <a href="https://www.flaticon.com/authors/indygo" target="_blank" style="color: grey; font-weight: italic;">indygo</a>
+  from 
+  <a href="https://www.flaticon.com/" target="_blank" style="color: grey">www.flaticon.com</a>
+</footer>
+  <script>
+    const searchInput = document.getElementById("search");
+    const produkList = document.querySelectorAll(".produk");
+
+    searchInput.addEventListener("input", function () {
+      const keyword = this.value.toLowerCase();
+      produkList.forEach(function (produk) {
+        const title = produk.querySelector(".judul").textContent.toLowerCase();
+        produk.style.display = title.includes(keyword) ? "block" : "none";
+      });
+    });
+</script>
+</body>
+</html>
